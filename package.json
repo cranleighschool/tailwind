@@ -1,0 +1,16 @@
+{
+  "name": "@cranleighschool/tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cranleighschool/tailwind.git"
+  },
+  "description": "Tailwind Theme Plugin with shared colours and fonts for Cranleigh School branding",
+  "keywords": ["tailwind", "plugin", "cranleigh", "theme"],
+  "author": "Fred Bradley",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
