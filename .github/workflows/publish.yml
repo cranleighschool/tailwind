@@ -3,7 +3,7 @@ name: Publish Package
 on:
   push:
     tags:
-      - 'v*'        # Triggers only on git tags starting with 'v'
+      - "v*" # Triggers only on git tags starting with 'v'
 
 jobs:
   publish:

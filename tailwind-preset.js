@@ -1,14 +1,24 @@
-const houses = ['cubitt', 'east', 'loveday', 'martlet', 'north', 'rhodes', 'south', 'west'];
+const houses = [
+  "cubitt",
+  "east",
+  "loveday",
+  "martlet",
+  "north",
+  "rhodes",
+  "south",
+  "west",
+];
 
-const getSafelist = () => houses.flatMap(color => [
-  `text-${color}`,
-  `bg-${color}`,
-  `ring-${color}`,
-  `border-${color}`,
-  `hover:bg-${color}`,
-  `style-${color}`,
-  `label-${color}`,
-]);
+const getSafelist = () =>
+  houses.flatMap((color) => [
+    `text-${color}`,
+    `bg-${color}`,
+    `ring-${color}`,
+    `border-${color}`,
+    `hover:bg-${color}`,
+    `style-${color}`,
+    `label-${color}`,
+  ]);
 
 module.exports = {
   safelist: getSafelist(),
@@ -25,7 +35,7 @@ module.exports = {
           "heathland-green": "#7F9C90",
           "chalk-lane": "#D0D0CE",
           "ivory-hall": "#D6D2C4",
-          "boxwood-mist": "#BAC5B9"
+          "boxwood-mist": "#BAC5B9",
         },
 
         cubitt: { DEFAULT: "#004C45" },
@@ -35,13 +45,17 @@ module.exports = {
         loveday: { DEFAULT: "#B7312C" },
         north: { DEFAULT: "#76232F" },
         rhodes: { DEFAULT: "#D57800" },
-        martlet: { DEFAULT: "#653379" }
+        martlet: { DEFAULT: "#653379" },
+        clubs: { DEFAULT: "#228848" },
+        diamonds: { DEFAULT: "#F6BE00" },
+        hearts: { DEFAULT: "#BA0C2F" },
+        spades: { DEFAULT: "#0086D6" },
       },
 
       fontFamily: {
-        body: ['proxima-nova', 'sans-serif'],
-        heading: ['anth', 'sans-serif']
-      }
-    }
-  }
+        body: ["proxima-nova", "sans-serif"],
+        heading: ["anth", "sans-serif"],
+      },
+    },
+  },
 };
