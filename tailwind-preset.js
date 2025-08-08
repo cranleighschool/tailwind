@@ -7,6 +7,11 @@ const houses = [
   "rhodes",
   "south",
   "west",
+  "clubs",
+  "hearts",
+  "diamonds",
+  "spades",
+  "school-house",
 ];
 
 const getSafelist = () =>
@@ -50,6 +55,7 @@ module.exports = {
         diamonds: { DEFAULT: "#F6BE00" },
         hearts: { DEFAULT: "#BA0C2F" },
         spades: { DEFAULT: "#0086D6" },
+        "school-house": { DEFAULT: "#003087" },
       },
 
       fontFamily: {
