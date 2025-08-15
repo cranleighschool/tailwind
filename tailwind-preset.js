@@ -23,6 +23,7 @@ const getSafelist = () =>
     `hover:bg-${color}`,
     `style-${color}`,
     `label-${color}`,
+    `mention-${color}`,
   ]);
 
 module.exports = {
