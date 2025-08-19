@@ -1,4 +1,4 @@
-module.exports = {
+export const colors = {
   cranleigh: {
     DEFAULT: "#021E42",
     gold: "#B0AA7E",
