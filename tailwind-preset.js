@@ -14,7 +14,7 @@ const houses = [
   "school-house",
 ];
 
-import { colors } from "@cranleighschool/tailwind/colors";
+import { colors } from "./colors.js";
 
 const getSafelist = () =>
   houses.flatMap((color) => [
